@@ -1,0 +1,56 @@
+.nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  font-size: 2.2rem;
+  font-family: Sulphur Point, sans-serif;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+.siteName{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+.imageContainer{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.desktopNav {
+  display: flex;
+  flex-direction: row;
+}
+.desktopNav li {
+  list-style: none;
+  padding: 0 16px;
+  font-size: 1rem;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.desktopNav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.desktopNav li a {
+  text-decoration: none;
+}
+.desktopNav li a:hover {
+  transition: color 200ms ease;
+}

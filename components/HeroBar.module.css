@@ -1,0 +1,13 @@
+.bar {
+  width: 45%;
+  height: 100px;
+  padding: 20px;
+  border-radius: 25px;
+  position: relative;
+  top: -60px;
+  background-color: white;
+  margin-left: 56%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
