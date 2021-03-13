@@ -1,0 +1,18 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+    border: 1px solid lightslategray;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-family: "Maven Pro", sans-serif;
+    max-width: 300px;
+    min-height: 900px;
+}
+.iconContainer{
+    margin: 10px;
+}
+.infoText {
+    color: lightslategray;
+    margin: 10px;
+}
