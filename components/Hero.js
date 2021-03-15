@@ -8,9 +8,9 @@ const Hero = () => {
     <>
       <section id="Hero" className={styles.hero}>
         <div className={styles.heroText}>
-          <h1>From Childhood to Adulthood</h1>
+          <h1>Set your sights on success.</h1>
           <h5>
-            <bold>Everyone</bold> has the capacity for excellence and Euler is a
+            Everyone has the capacity for excellence and Euler is a
             place to unlock a student's true potential. <br />
             Private, 1–on–1 lessons for your child with an expert instructor
             from a top school. Meet online or in-person. Decide who you want to

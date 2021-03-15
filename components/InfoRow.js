@@ -38,7 +38,7 @@ const InfoRow = () => {
         <div className={styles.box}>
           <div className={styles.iconContainer}>
             <div className={styles.awardIcon}>
-              <Image src="/award-icon.png" alt="book" height={50} width={40} />
+              <Image src="/award-icon.png" alt="book" height={55} width={40} />
             </div>
           </div>
           <div className={styles.infoText}>

@@ -3,7 +3,8 @@ import styles from './index.module.css';
 import Navigation from '../components/Navigation';
 import Hero from '../components/Hero';
 import WhatWeDo from '../components/WhatWeDo';
-import InfoRow from "../components/InfoRow";
+import InfoRow from '../components/InfoRow';
+import Reviews from '../components/Reviews';
 
 export default function Home() {
   return (
@@ -17,8 +18,10 @@ export default function Home() {
         <Hero />
         <div className={styles.siteContainer}>
           <WhatWeDo />
-          <InfoRow/>
+          <InfoRow />
+          <Reviews />
         </div>
+
       </div>
     </>
   );
