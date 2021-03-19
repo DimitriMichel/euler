@@ -1,0 +1,17 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+.quote{
+    font-size: 1.2rem;
+    font-family: "Helvetica Now Display", sans-serif;
+    font-weight: normal;
+    margin: 20px;
+    align-self: center;
+}
+

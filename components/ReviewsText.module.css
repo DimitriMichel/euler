@@ -1,0 +1,32 @@
+.container {
+display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+.header {
+  font-weight: bold;
+  font-family: 'Helvetica Now Display', sans-serif;
+  margin: 20px 0;
+  font-size: 3rem;
+}
+.text {
+  font-size: 20px;
+  font-weight: 200;
+  max-width: 600px;
+
+}
+
+.btn__text {
+  margin-top: 30px;
+  padding: 10px 25px;
+  background-color: #f2a370;
+  border: none;
+  color: white;
+  font-family: 'Helvetica Now Display', sans-serif;
+  border-radius: 8px;
+  margin-right: 20px;
+  font-size:20px;
+  max-width: fit-content;
+  cursor: pointer;
+}

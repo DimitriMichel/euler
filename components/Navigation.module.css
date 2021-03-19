@@ -1,36 +1,53 @@
 .nav {
-  height: 60px;
+  height: fit-content;
   width: 100%;
-  display: flex;
-  margin-left: 24px;
-  margin-right: 24px;
   margin-bottom: 20px;
-  flex-direction: row;
-  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+  padding: 5px;
+
+  border-bottom: 1px lightgray solid;
 }
+.nav ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+
 
 .logo {
   display: flex;
-  font-size: 2.2rem;
-  font-family: Sulphur Point, sans-serif;
+  font-family: 'Helvetica Now Display', sans-serif;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   height: 100%;
-
+  justify-content: center;
 }
-.siteName{
+.name{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  padding-bottom: 6px;
+}
+.siteName {
+  font-size: 1.8rem;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
 
+  border-right: 2px solid #fcd50e;
+  padding-right: 25px;
+  font-family: 'Playfair Display SC', sans-serif;
+  font-weight: 400;
 }
-.imageContainer{
-  display: flex;
-  justify-content: center;
-  height: 100%;
+.rightsReservedSymbol {
+  font-size: 0.8rem;
 }
+
 .desktopNav {
   display: flex;
   flex-direction: row;
@@ -48,8 +65,10 @@
   display: flex;
   flex-direction: row;
 }
+
 .desktopNav li a {
   text-decoration: none;
+
 }
 .desktopNav li a:hover {
   transition: color 200ms ease;

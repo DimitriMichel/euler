@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: column;
   height: 80vh;
-  border-radius: 25px;
-  margin: 20px;
   background-image: url('/images/hero.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,7 +9,7 @@
 .hero h1 {
   font-size: 3.8rem;
   color: white;
-  font-family: "Helvetica Now Display", sans-serif;
+  font-family: 'Helvetica Now Display', sans-serif;
   font-weight: 900;
   margin-bottom: 20px;
   line-height: 3.4rem;
@@ -25,10 +23,8 @@
   margin-left: 100px;
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   height: 100%;
-
   max-width: 600px;
 }
 .buttonsContainer {
@@ -39,27 +35,28 @@
   background-color: #fcd50e;
   border: 1px black solid;
   color: black;
-  font-family: "Helvetica Now Display", sans-serif;
+  font-family: 'Helvetica Now Display', sans-serif;
   border-radius: 10px;
   margin-right: 20px;
+  cursor: pointer;
   font-size: 1.1rem;
 }
 .infoButton {
+  cursor: pointer;
   padding: 10px 20px;
   border-radius: 10px;
   background-color: black;
-  font-family: "Helvetica Now Display", sans-serif;
+  font-family: 'Helvetica Now Display', sans-serif;
   border: none;
   color: white;
   font-size: 1.1rem;
   display: flex;
   flex-direction: row;
 }
-.arrowIcon{
+.arrowIcon {
   margin-left: 10px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }

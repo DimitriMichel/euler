@@ -5,23 +5,25 @@ import Hero from '../components/Hero';
 import WhatWeDo from '../components/WhatWeDo';
 import InfoRow from '../components/InfoRow';
 import Reviews from '../components/Reviews';
+import Container from '../utility/Container';
+import StudentVoices from '../components/StudentVoices';
+import RegistrationBanner from "../components/RegistrationBanner";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Galilei - Tutoring</title>
+        <title>Euler - Tutoring</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.container}>
-        <Navigation />
-        <Hero />
-        <div className={styles.siteContainer}>
-          <WhatWeDo />
-          <InfoRow />
-          <Reviews />
-        </div>
-
+      <Navigation />
+      <Hero />
+      <div>
+        <WhatWeDo />
+        <InfoRow />
+        <Reviews />
+        <StudentVoices />
+        <RegistrationBanner/>
       </div>
     </>
   );

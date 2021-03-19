@@ -1,0 +1,40 @@
+.bannerContainer {
+  margin-top: 80px;
+  border-radius: 15px;
+  background-color: black;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.banner {
+
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  width: 1200px;
+}
+.bannerText {
+  max-width: 50%;
+  font-family: "Helvetica Now",sans-serif;
+  font-weight: 200;
+    color: white;
+}
+.btn__container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn__text {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 25px;
+  background-color: #f2a370;
+  border: none;
+  color: white;
+  font-family: 'Helvetica Now Display', sans-serif;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
