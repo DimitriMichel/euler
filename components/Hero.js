@@ -2,11 +2,13 @@ import React from 'react';
 import Image from 'next/image';
 import styles from './Hero.module.css';
 import HeroBar from './HeroBar';
+import Container from "../utility/Container";
 
 const Hero = () => {
   return (
     <>
       <section id="Hero" className={styles.hero}>
+        <Container>
         <div className={styles.heroText}>
           <h1>Set your sights on success.</h1>
           <h5>
@@ -31,7 +33,9 @@ const Hero = () => {
             </button>
           </div>
         </div>
+        </Container>
       </section>
+
       <HeroBar />
     </>
   );

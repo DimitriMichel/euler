@@ -3,20 +3,17 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-left: 10px;
+
     align-items: center;
     justify-content: center;
 
 }
-.aligner{
-
-}
 .boxContainer{
-    width: 90%;
+    width: 70%;
     height: 100%;
     display: flex;
+    margin-top: 13vh;
     flex-direction: row;
-
 }
 .box{
     display: flex;
@@ -27,7 +24,6 @@
     font-weight: 200;
     max-width: 300px;
     margin-right: 120px;
-
 }
 .iconContainer{
     margin: 10px;

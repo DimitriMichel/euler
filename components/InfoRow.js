@@ -2,13 +2,14 @@ import React from 'react';
 import styles from './InfoRow.module.css';
 import Image from 'next/image';
 import InfoBox from './InfoBox';
+import Container from '../utility/Container';
 
 let textExample =
   'Learn from expert educators from schools such as Harvard, Princeton, Cornell, and MIT';
 
 const InfoRow = () => {
   return (
-    <div className={styles.container}>
+    <Container>
       <div className={styles.boxContainer}>
         <div className={styles.box}>
           <div className={styles.iconContainer}>
@@ -46,7 +47,7 @@ const InfoRow = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

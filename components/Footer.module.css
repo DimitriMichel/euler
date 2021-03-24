@@ -1,25 +1,49 @@
 .footer{
     display: flex;
+    margin-top: 10vh;
     flex-direction: row;
+    height: 30vh;
+    padding-bottom: 40px;
+    border-bottom: #d1d3d7 1px solid;
+    justify-content: space-between;
 }
 .infoColumn{
     display: flex;
     flex-direction: column;
+    width: 30%;
 }
 .infoColumn__logo{
-    font-family: "Playfair Display",sans-serif;
+    font-family: "Playfair Display SC",sans-serif;
     font-size: 1.3rem;
+    font-weight: normal;
     margin-bottom: 5px;
 }
 .infoColumn__text{
     font-size: .8rem;
     font-family: "Helvetica Now",sans-serif;
     font-weight: 200;
+    max-width: 310px;
 }
 .infoColumn__socialMedia{
+
+}
+.infoColumn__socialMedia ul{
     display: flex;
+    padding: 0;
     flex-direction: row;
-    margin: 12px;
+    list-style: none;
+}
+.infoColumn__socialMedia__icon{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 1px;
+    background-color: #d1d3d7 ;
+    border-radius: 50%;
+    margin-right: 12px;
 }
 .basicColumn{
     display: flex;
@@ -28,10 +52,18 @@
     font-weight: 200;
     flex-direction: column;
 }
+.basicColumn__title{
+    font-family: "Helvetica Now",sans-serif;
+    color: #d1d3d7;
+    font-size: .8rem;
+    font-weight: bold;
+}
 .basicColumn ul{
     list-style: none;
+    padding: 0;
 }
 .basicColumn ul li{
-    margin: 5px;
+    margin-bottom: 10px;
+
     text-decoration: none;
 }

@@ -1,13 +1,27 @@
 .bannerContainer {
   margin-top: 80px;
   border-radius: 15px;
-  background-color: black;
+position: relative;
+
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
   padding: 50px;
   display: flex;
   justify-content: center;
 }
+.bannerContainer::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image: url('/images/registration.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(30%);
+  border-radius: 15px;
+}
 .banner {
-
+ position: relative;
   display: flex;
   flex-direction: row;
   align-content: center;

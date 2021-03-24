@@ -7,7 +7,8 @@ import InfoRow from '../components/InfoRow';
 import Reviews from '../components/Reviews';
 import Container from '../utility/Container';
 import StudentVoices from '../components/StudentVoices';
-import RegistrationBanner from "../components/RegistrationBanner";
+import RegistrationBanner from '../components/RegistrationBanner';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -23,7 +24,8 @@ export default function Home() {
         <InfoRow />
         <Reviews />
         <StudentVoices />
-        <RegistrationBanner/>
+        <RegistrationBanner />
+        <Footer />
       </div>
     </>
   );

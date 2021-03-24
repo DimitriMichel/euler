@@ -38,11 +38,11 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-
   border-right: 2px solid #fcd50e;
   padding-right: 25px;
   font-family: 'Playfair Display SC', sans-serif;
   font-weight: 400;
+
 }
 .rightsReservedSymbol {
   font-size: 0.8rem;
@@ -54,7 +54,7 @@
 }
 .desktopNav li {
   list-style: none;
-  padding: 0 16px;
+  padding: 0 26px 0 0;
   font-size: 1rem;
   color: black;
   display: flex;
